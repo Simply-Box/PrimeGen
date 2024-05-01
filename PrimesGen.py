@@ -1,3 +1,5 @@
+# This code generates primes up to the scope nummber and currently prints the nummber of primes
+
 import numpy as np
 
 # Variabler
@@ -13,8 +15,9 @@ for i in range(2, scope):
     # If prime: Make multiples of i False
     if lis[i]:
         antalP+=1
-        ## if antal == 10001:
-        ##    print(i)
+        # Uncomment code if you want to find the 10001:st prime nummber
+        #if antal == 10001:
+        #    print(i)
         for j in range(i*2, scope, i):
             lis[j] = False
 
