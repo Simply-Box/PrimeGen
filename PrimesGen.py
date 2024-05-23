@@ -20,4 +20,4 @@ for i in range(2, scope):
         #if nummberOfPrime == 10001:
         #    print(i)
 
-print(antalP)
+print(nummberOfPrime)
